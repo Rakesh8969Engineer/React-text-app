@@ -70,9 +70,13 @@ settext(event.target.value);
       <button type="button" className="btn btn-info  mx-2" onClick={clearbox}   >Clear</button>
 <div>
 
+
 <h5>Total Characters:-{text.length}</h5><br/>
-<p>Total Sentences:-{text.split(" ").length}</p>
-<p>Time to Read:-{text.split("").length*0.008} Seconds</p>
+<p>Total Words:-{text.split(" ").length}</p>
+<p>Time's to Read:-{0.008 * text.split("").length} Minutes</p>
+<h3>Preview</h3>
+
+{text}
 
 
 
