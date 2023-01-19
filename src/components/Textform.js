@@ -64,10 +64,10 @@ settext(event.target.value);
       </button>
 
 
-      <button type="button" className="btn btn-warning  mx-3" onClick={lowercase}   >Convert To LowerCase</button>
+      <button type="button" className="btn btn-warning  my-3" onClick={lowercase}   >Convert To LowerCase</button>
 
 
-      <button type="button" className="btn btn-info  mx-2" onClick={clearbox}   >Clear</button>
+      <button type="button" className="btn btn-info  my-3" onClick={clearbox}   >Clear</button>
 <div>
 
 
